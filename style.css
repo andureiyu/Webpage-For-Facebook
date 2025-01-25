@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #122b42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.profile h1 {
+    margin: 15px 0 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #ddd;
+    font-family: "Martian Moto", monospace;
+
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons .icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #0077ff;
+}
+
+.links {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: #122b42;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: "Martian Moto", monospace;
+
+}
+
+.links a:hover {
+    background-color: #0077ff;
+    color: white;
+    transform: translateY(-3px);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #122b42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.profile h1 {
+    margin: 15px 0 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.profile p {
+    font-size: 16px;
+    color: white;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons .icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #0077ff;
+}
+
+.links {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: #122b42;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.links a:hover {
+    background-color: #0077ff;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 700px) {
+    body {
+        padding: 10px; /* Add some padding for smaller screens */
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile h1 {
+        font-size: 18px; /* Slightly smaller font size */
+    }
+
+    .profile p {
+        font-size: 14px; /* Reduce font size for better fit */
+    }
+
+    .social-icons .icon {
+        font-size: 20px; /* Adjust social icons size */
+        margin: 0 8px; /* Reduce margin between icons */
+    }
+
+    .links {
+        width: 100%; /* Make links container take full width */
+        max-width: none; /* Remove max-width limit */
+    }
+
+    .links a {
+        font-size: 14px; /* Adjust font size for better readability */
+        padding: 12px; /* Reduce padding */
+    }
+
+    /* Make the theme toggle button more accessible on smaller screens */
+    .toggle-theme-button {
+        font-size: 14px; /* Make button text smaller */
+        padding: 8px;
+        top: 5px;
+        right: 5px;
+    }
+}
