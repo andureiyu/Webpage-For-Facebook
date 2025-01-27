@@ -183,16 +183,16 @@ body {
     }
 
     .profile h1 {
-        font-size: 18px; /* Slightly smaller font size */
+        font-size: 18px; 
     }
 
     .profile p {
-        font-size: 14px; /* Reduce font size for better fit */
+        font-size: 14px; 
     }
 
     .social-icons .icon {
-        font-size: 20px; /* Adjust social icons size */
-        margin: 0 8px; /* Reduce margin between icons */
+        font-size: 20px; 
+        margin: 0 8px; 
     }
 
     .links {
@@ -202,7 +202,7 @@ body {
 
     .links a {
         font-size: 14px; /* Adjust font size for better readability */
-        padding: 12px; /* Reduce padding */
+        padding: 12px; 
     }
 
     /* Make the theme toggle button more accessible on smaller screens */
