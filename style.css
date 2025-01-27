@@ -63,7 +63,7 @@ body {
 .links {
     margin-top: 30px;
     width: 90%;
-    max-width: 515px;
+    max-width: 400px;
 }
 
 .links a {
@@ -112,8 +112,8 @@ body {
 }
 
 .profile img {
-    width: 120px;
-    height: 120px;
+    width: 179px;
+    height: 179px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
@@ -121,12 +121,12 @@ body {
 
 .profile h1 {
     margin: 15px 0 5px;
-    font-size: 20px;
+    font-size: 26px;
     color: #fff;
 }
 
 .profile p {
-    font-size: 16px;
+    font-size: 19px;
     color: white;
 }
 
@@ -138,7 +138,7 @@ body {
     margin: 0 10px;
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 25px;
     transition: color 0.3s;
 }
 
@@ -149,7 +149,7 @@ body {
 .links {
     margin-top: 30px;
     width: 90%;
-    max-width: 400px;
+    max-width: 700px;
 }
 
 .links a {
